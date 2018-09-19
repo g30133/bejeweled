@@ -1,0 +1,19 @@
+:root {
+  --board-num-rows: 8;
+  --board-num-cols: 8;
+  --board-cell-size: calc(12.5vw  - 2px);
+  --board-gap: 2px;
+}
+
+@media (min-aspect-ratio: 3/5) {
+  :root {
+    --board-cell-size: calc(3.5vh - 2px);
+  }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
